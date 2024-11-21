@@ -604,7 +604,7 @@ public class Utilities {
 			// Nhấn Enter
 			rb.keyPress(KeyEvent.VK_ENTER);
 			rb.keyRelease(KeyEvent.VK_ENTER);
-			Thread.sleep(4000);
+			Thread.sleep(7000);
 		}
 	}
 }
