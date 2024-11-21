@@ -8,7 +8,8 @@
     	<!--<class name = "TestSuite.Login"/>-->
     	<!--<class name = "TestSuite.AddToCart"/>-->
     	<!--<class name = "TestSuite.Order"/>-->
-    	<class name = "TestSuite.AddProduct"/>
+    	<!--<class name = "TestSuite.AddProduct"/>-->
+    	<class name = "TestSuite.OrderE2E"/>
     </classes>
   </test> <!-- Test -->
  

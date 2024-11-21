@@ -64,5 +64,15 @@ public class LoginScreen {
 			Utilities.captureScreen(driver, id);
 			Utilities.assertTextValue(driver, By.xpath(ERROR_MSG_XPATH), expectMsg);
 		}
-	}	
+	}
+	
+	public static void loginE2E(WebDriver driver, String email, String password) throws InterruptedException {
+		Utilities.waitForElementVisibility(driver, By.id(EMAIL_TXT_ID));
+		Utilities.inputValueAndValidate(driver, By.id(EMAIL_TXT_ID), email, email);
+		Thread.sleep(1000);
+		Utilities.inputValueAndValidate(driver, By.id(PASSWORD_TXT_ID), password, password);
+		Thread.sleep(1000);
+		Utilities.clickObscuredElement(driver, By.id(LOGIN_BTN_ID), By.xpath(SUCCESS_MSG_XPATH), Constant.WAIT_ELEMENT_EXIST);
+
+	}
 }

@@ -17,6 +17,7 @@ public class OrderScreen {
 	
 	// Button
 	public static final String ORDER_BTN_ID				= "order";
+	public static final String HISTORY_LINK_BTN_ID		= "link_history";
 	
 	// Link
 	public static final String HOME_LINK_XPATH			= "//span[contains(text(),'Trang Chủ')]";
@@ -33,6 +34,25 @@ public class OrderScreen {
 		Utilities.clickObscuredElement(driver, By.id(ProductDetailScreen.ADD_NOW_BTN_ID), By.id(CartScreen.BUY_BTN_ID), Constant.WAIT_ELEMENT_EXIST);
 		Utilities.clickObscuredElement(driver, By.id(CartScreen.BUY_BTN_ID), By.id(ORDER_BTN_ID), Constant.WAIT_ELEMENT_EXIST);
 		return driver;
+	}
+	
+	public static void orderE2E(WebDriver driver, String name, String phone, String province, String district, String ward, String address) throws InterruptedException {
+		Utilities.waitForElementVisibility(driver, By.id(NAME_TXT_ID));
+		Utilities.inputValueAndValidate(driver, By.id(NAME_TXT_ID), name, name);
+		Thread.sleep(1000);
+		Utilities.inputValueAndValidate(driver, By.id(PHONE_TXT_ID), phone, phone);
+		Thread.sleep(1000);
+		Utilities.selectListBox(driver, By.id(PROVINCE_SELECT_ID), province);
+		Thread.sleep(1000);
+		Utilities.selectListBox(driver, By.id(DISTRICT_SELECT_ID), district);
+		Thread.sleep(1000);
+		Utilities.selectListBox(driver, By.id(WARD_SELECT_ID), ward);
+		Thread.sleep(1000);
+		Utilities.inputValueAndValidate(driver, By.id(ADDRESS_TXT_ID), address, address);
+		Thread.sleep(1000);
+		Utilities.clickObscuredElement(driver, By.id(ORDER_BTN_ID), By.xpath(SUCCESS_MSG_XPATH), Constant.WAIT_ELEMENT_EXIST);
+		Thread.sleep(1000);
+		Utilities.clickObscuredElement(driver, By.id(HISTORY_LINK_BTN_ID), By.xpath(SUCCESS_MSG_XPATH), Constant.WAIT_ELEMENT_EXIST);
 	}
 	
 	public static void order(WebDriver driver, String id, String name, String phone, String province, String district, String ward, String address, String expectMsg) {

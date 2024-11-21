@@ -58,5 +58,18 @@ public class RegisterScreen {
 			Utilities.captureScreen(driver, id);
 			Utilities.assertTextValue(driver, By.xpath(ERROR_MSG_XPATH), expectMsg);
 		}
-	}	
+	}
+	
+	public static void registerE2E(WebDriver driver, String name, String email, String password, String cfmPassword) throws InterruptedException {
+		Utilities.waitForElementVisibility(driver, By.id(NAME_TXT_ID));
+		Utilities.inputValue(driver, By.id(NAME_TXT_ID), name);
+		Thread.sleep(1000);
+		Utilities.inputValue(driver, By.id(EMAIL_TXT_ID), email);
+		Thread.sleep(1000);
+		Utilities.inputValue(driver, By.id(PASSWORD_TXT_ID), password);
+		Thread.sleep(1000);
+		Utilities.inputValue(driver, By.id(CFM_PASSWORD_TXT_ID), cfmPassword);
+		Thread.sleep(1000);
+		Utilities.clickObscuredElement(driver, By.id(REGISTER_BTN_ID), By.xpath(SUCCESS_MSG_XPATH), Constant.WAIT_ELEMENT_EXIST);
+	}
 }
