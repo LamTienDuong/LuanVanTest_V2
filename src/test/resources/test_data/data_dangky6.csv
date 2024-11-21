@@ -1,0 +1,25 @@
+﻿ID,Họ tên,Email,Mật khẩu,Nhập lại mật khẩu,Thông báo
+TCDangKy_01,,TCDangKy_01@gmail.com,Abcd1234,Abcd1234,Họ tên không được để trống!
+TCDangKy_02,          ,TCDangKy_02@gmail.com,Abcd1234,Abcd1234,Họ tên không được để trống!
+TCDangKy_03, Test ,TCDangKy_03@gmail.com,Abcd1234,Abcd1234,Đăng ký tài khoản thành công!
+TCDangKy_04,Test Test,TCDangKy_04@gmail.com,Abcd1234,Abcd1234,Đăng ký tài khoản thành công!
+TCDangKy_05,Test1234,TCDangKy_05@gmail.com,Abcd1234,Abcd1234,Họ tên nhập vào không hợp lệ!
+TCDangKy_06,Test@#$%,TCDangKy_06@gmail.com,Abcd1234,Abcd1234,Họ tên nhập vào không hợp lệ!
+TCDangKy_07,Test,,Abcd1234,Abcd1234,Email không được để trống!
+TCDangKy_08,Test,          ,Abcd1234,Abcd1234,Email không được để trống!
+TCDangKy_09,Test,test@gmail,Abcd1234,Abcd1234,Email nhập vào không hợp lệ!
+TCDangKy_10,Test,        TCDangKy_10@gmail.com ,Abcd1234,Abcd1234,Email nhập vào không hợp lệ!
+TCDangKy_11,Test,test test@gmail.com,Abcd1234,Abcd1234,Email nhập vào không hợp lệ!
+TCDangKy_12,Test,test#$%^@gmail.com,Abcd1234,Abcd1234,Email nhập vào không hợp lệ!
+TCDangKy_13,Test,test1234@gmail.com,Abcd1234,Abcd1234,Đăng ký tài khoản thành công!
+TCDangKy_14,Test,duong@gmail.com,Abcd1234,Abcd1234,Email đã tồn tại!
+TCDangKy_15,Test,TCDangKy_15@gmail.com,,,Mật khẩu không được để trống!
+TCDangKy_16,Test,TCDangKy_16@gmail.com,ABCD1234,ABCD1234,Bao gồm ít nhất 1 kí tự thường; 1 kí tự hoa; chữ số và có độ dài >= 8!
+TCDangKy_17,Test,TCDangKy_17@gmail.com,abcd1234,abcd1234,Bao gồm ít nhất 1 kí tự thường; 1 kí tự hoa; chữ số và có độ dài >= 8!
+TCDangKy_18,Test,TCDangKy_18@gmail.com,AbcdAbcd,AbcdAbcd,Bao gồm ít nhất 1 kí tự thường; 1 kí tự hoa; chữ số và có độ dài >= 8!
+TCDangKy_19,Test,TCDangKy_19@gmail.com,Abcd123,Abcd123,Bao gồm ít nhất 1 kí tự thường; 1 kí tự hoa; chữ số và có độ dài >= 8!
+TCDangKy_20,Test,TCDangKy_20@gmail.com,Abcd1234,Abcd1234,Đăng ký tài khoản thành công!
+TCDangKy_21,Test,TCDangKy_21@gmail.com,Abcd12345,Abcd12345,Đăng ký tài khoản thành công!
+TCDangKy_22,Test,TCDangKy_22@gmail.com,Abcd1234,,Mật khẩu nhập lại không được để trống!
+TCDangKy_23,Test,TCDangKy_23@gmail.com,Abcd1234,Abcd12345,Mật khẩu nhập lại không khớp
+TCDangKy_24,Test,TCDangKy_24@gmail.com,Abcd1234,Abcd1234,Đăng ký tài khoản thành công!

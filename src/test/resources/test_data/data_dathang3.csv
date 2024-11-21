@@ -1,0 +1,22 @@
+﻿ID,Tên người nhận,Số điện thoại,Tỉnh/Thành phố,Quận/Huyện,Xã/Phường,Địa chỉ,Thông báo
+TCDatHang_01,,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Tên người nhận không được để trống!
+TCDatHang_02,          ,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Tên người nhận không được để trống!
+TCDatHang_03, Kiểm thử ,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Đặt hàng thành công !
+TCDatHang_04,Kiểm thử,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Đặt hàng thành công !
+TCDatHang_05,Kiểm thử@#$,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Tên người nhận nhập vào không hợp lệ!
+TCDatHang_06,Kiểm thử1234,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Tên người nhận nhập vào không hợp lệ!
+TCDatHang_07,Kiểm thử,,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Số điện thoại không được để trống!
+TCDatHang_08,Kiểm thử,          ,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Số điện thoại không được để trống!
+TCDatHang_09,Kiểm thử,0,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Số điện thoại nhập vào không hợp lệ!
+TCDatHang_10,Kiểm thử,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Đặt hàng thành công !
+TCDatHang_11,Kiểm thử,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Đặt hàng thành công !
+TCDatHang_12,Kiểm thử,0987@654#321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Số điện thoại nhập vào không hợp lệ!
+TCDatHang_13,Kiểm thử,0987a654b321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Số điện thoại nhập vào không hợp lệ!
+TCDatHang_14,Kiểm thử,098765432,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Số điện thoại nhập vào không hợp lệ!
+TCDatHang_15,Kiểm thử,09876543210,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Số điện thoại nhập vào không hợp lệ!
+TCDatHang_16,Kiểm thử,0987654321,,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Tỉnh/Thành phố không được để trống!
+TCDatHang_17,Kiểm thử,0987654321,Thành phố Cần Thơ,,Thị trấn Cờ Đỏ,Kiểm thử địa chỉ,Quận/Huyện không được để trống!
+TCDatHang_18,Kiểm thử,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,,Kiểm thử địa chỉ,Xã/Phường không được để trống!
+TCDatHang_19,Kiểm thử,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,,Địa chỉ không được để trống!
+TCDatHang_20,Kiểm thử,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ,          ,Địa chỉ không được để trống!
+TCDatHang_21,Kiểm thử,0987654321,Thành phố Cần Thơ,Huyện Cờ Đỏ,Thị trấn Cờ Đỏ, Kiểm thử địa chỉ ,Đặt hàng thành công !

@@ -1,0 +1,7 @@
+﻿ID,Email,Mật khẩu,Thông báo
+TCDangNhap_01,,Abcd1234,Email không được để trống!
+TCDangNhap_02,          ,Abcd1234,Email không được để trống!
+TCDangNhap_03,test1234@gmail.com,Abcd1234,Tên đăng nhập hoặc mật khẩu không chính xác
+TCDangNhap_04,test@gmail.com,,Mật khẩu không được để trống!
+TCDangNhap_05,test@gmail.com,Abcd12345,Tên đăng nhập hoặc mật khẩu không chính xác
+TCDangNhap_06,test@gmail.com,Abcd1234,Đăng nhập tài khoản thành công!

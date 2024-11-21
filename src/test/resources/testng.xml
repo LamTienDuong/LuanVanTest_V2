@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClothingStoreTesting" configfailurepolicy="continue">
+   <test name="ClothingStoreTesting" group-by-instances="true" preserve-order="true">
+    <parameter name = "browser" value = "Chrome"/>  
+    <classes>
+	    <!--<class name = "TestSuite.Register"/> -->
+    	<!--<class name = "TestSuite.Login"/>-->
+    	<!--<class name = "TestSuite.AddToCart"/>-->
+    	<!--<class name = "TestSuite.Order"/>-->
+    	<class name = "TestSuite.AddProduct"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
